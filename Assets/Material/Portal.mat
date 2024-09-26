@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hologram
+  m_Name: Portal
   m_Shader: {fileID: -6465566751694194690, guid: 49dc77eefe5b2ff4eb929fc48c1acfbe,
     type: 3}
   m_Parent: {fileID: 0}
@@ -99,7 +99,6 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HologramIntentsity: 0.5
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -107,7 +106,6 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RimPower: 1
     - _Rimpower: 5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -122,12 +120,11 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HologramColor: {r: 0, g: 1, b: 0.96124196, a: 0}
-    - _Portal_Color: {r: 0, g: 1, b: 0.20283651, a: 0}
-    - _Rimcolor: {r: 0.10436763, g: 0.9150943, b: 0, a: 0}
+    - _Portal_Color: {r: 0, g: 0.97032166, b: 1, a: 0}
+    - _Rimcolor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &2153451089041575858
+--- !u!114 &2037237454738030927
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
